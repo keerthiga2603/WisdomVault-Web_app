@@ -1,0 +1,98 @@
+.cultural-page{
+  padding-top:120px;
+  min-height:100vh;
+
+  background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
+  text-align:center;
+}
+
+/* TITLE */
+.cultural-page h2{
+  text-align:left;
+  margin-left:50px;
+  color:#1b5e20;
+}
+
+/* MAIN BOX */
+.culture-box{
+  width:1200px;
+  max-width:95%;
+  margin:40px auto;
+
+  background:#ffffff;
+  border-radius:20px;
+  padding:40px;
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.culture-box h1{
+  color:#1b5e20;
+  font-size:32px;
+}
+
+.culture-box p{
+  color:#444;
+  margin-bottom:30px;
+}
+
+/* FLOW */
+.flow{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+/* CARD */
+.flow-card{
+  width:180px;
+  height:180px;
+
+  background:#e4f2e6;
+  border-radius:20px;
+  padding:15px;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+}
+
+/* ICON */
+.icon{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+/* TEXT */
+.flow-card h3{
+  color:#1b5e20;
+  font-size:16px;
+}
+
+.flow-card p{
+  font-size:13px;
+  margin-top:5px;
+}
+
+/* ARROW */
+.arrow{
+  font-size:20px;
+  color:#4caf50;
+}
+
+/* BOTTOM BAR */
+.bottom-bar{
+  margin-top:30px;
+  padding:15px;
+
+  background:#dff0e3;
+  border-radius:15px;
+
+  color:#2e7d32;
+}

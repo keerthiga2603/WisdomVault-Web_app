@@ -1,0 +1,71 @@
+/* PAGE */
+.about-page{
+  padding-top:140px;
+  background:#eef6f0;
+  min-height:100vh;
+  text-align:center;
+}
+
+/* HEADER */
+.about-page h1{
+  color:#1b5e20;
+  font-size:34px;
+  font-weight:700;
+}
+
+.about-page p{
+  color:#6b7c6f;
+  margin-bottom:30px;
+}
+
+/* GRID */
+.about-grid{
+  width:1200px;
+  max-width:95%;
+  margin:auto;
+
+  display:flex;
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  flex:1;
+  background:#f7faf7;
+  border-radius:14px;
+  padding:20px;
+  text-align:left;
+
+  border:1px solid #dce8dc;
+}
+
+/* LIST */
+.card ul{
+  margin-top:10px;
+  padding-left:18px;
+}
+
+/* STATS BAR */
+.stats{
+  width:1200px;
+  max-width:95%;
+  margin:30px auto;
+
+  display:flex;
+  justify-content:space-around;
+
+  background:#e4f2e6;
+  padding:25px;
+  border-radius:14px;
+}
+
+/* STATS TEXT */
+.stats h2{
+  color:#1b5e20;
+  font-size:24px;
+}
+
+.stats p{
+  margin-top:5px;
+  font-size:14px;
+}

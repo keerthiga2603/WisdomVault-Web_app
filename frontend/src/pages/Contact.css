@@ -1,0 +1,79 @@
+.contact-page{
+  padding-top:140px;
+  background:#eef6f0;
+  min-height:100vh;
+  text-align:center;
+}
+
+/* HEADER */
+.contact-page h1{
+  color:#1b5e20;
+  font-size:34px;
+  font-weight:700;
+}
+
+.contact-page p{
+  color:#6b7c6f;
+  margin-bottom:30px;
+}
+
+/* GRID */
+.contact-grid{
+  width:1200px;
+  max-width:95%;
+  margin:auto;
+
+  display:flex;
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  flex:1;
+  background:#f7faf7;
+  border-radius:14px;
+  padding:20px;
+  text-align:left;
+
+  border:1px solid #dce8dc;
+}
+
+/* INPUTS */
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+
+  border-radius:8px;
+  border:1px solid #c8e6c9;
+}
+
+textarea{
+  height:100px;
+  resize:none;
+}
+
+/* BUTTON */
+.send{
+  width:100%;
+  margin-top:15px;
+  padding:12px;
+
+  background:#2e7d32;
+  color:white;
+  border:none;
+  border-radius:10px;
+
+  cursor:pointer;
+}
+
+/* FOOTER BAR */
+.contact-footer{
+  width:1200px;
+  max-width:95%;
+  margin:25px auto;
+
+  background:#e4f2e6;
+  padding:15px;
+  border-radius:12px;
+}

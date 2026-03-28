@@ -1,0 +1,104 @@
+.app-page{
+  padding-top:140px;
+  background:#eef6f0;
+  min-height:100vh;
+  text-align:center;
+}
+
+/* HEADER */
+.app-page h1{
+  color:#1b5e20;
+  font-size:34px;
+  font-weight:700;
+}
+
+.app-page p{
+  color:#6b7c6f;
+  margin-bottom:30px;
+}
+
+/* GRID */
+.app-grid{
+  width:1200px;
+  max-width:95%;
+  margin:auto;
+
+  display:flex;
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  flex:1;
+  background:#f7faf7;
+  border-radius:14px;
+  padding:20px;
+  text-align:left;
+
+  border:1px solid #dce8dc;
+}
+
+/* LIST */
+.card ul{
+  margin-top:10px;
+  padding-left:0;
+  list-style:none;
+}
+
+/* BUTTON */
+.download-btn{
+  width:100%;
+  margin-top:15px;
+  padding:12px;
+
+  background:#2e7d32;
+  color:white;
+  border:none;
+  border-radius:10px;
+
+  cursor:pointer;
+}
+
+/* QR */
+.qr{
+  margin-top:15px;
+  width:100px;
+  height:100px;
+
+  background:#dfeae2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:10px;
+}
+
+/* TABLE */
+table{
+  width:100%;
+  margin-top:15px;
+  border-collapse:collapse;
+}
+
+th, td{
+  border:1px solid #cde3cf;
+  padding:10px;
+  text-align:center;
+}
+
+th{
+  background:#e4f2e6;
+}
+
+/* BOTTOM BAR */
+.secure-bar{
+  width:1200px;
+  max-width:95%;
+  margin:25px auto;
+
+  background:#e4f2e6;
+  padding:15px;
+  border-radius:12px;
+
+  color:#2e7d32;
+}

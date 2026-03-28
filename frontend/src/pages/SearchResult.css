@@ -1,0 +1,124 @@
+/* PAGE BACKGROUND */
+.search-page{
+  min-height:100vh;
+  padding-top:140px;
+  background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
+  text-align:center;
+}
+
+/* SEARCH BAR */
+.search-top{
+  width:700px;
+  max-width:90%;
+  margin:20px auto 40px;
+
+  display:flex;
+  align-items:center;
+  gap:10px;
+
+  background:#fff;
+  padding:14px 20px;
+  border-radius:40px;
+
+  box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+.search-top input{
+  flex:1;
+  border:none;
+  outline:none;
+  font-size:16px;
+}
+
+.search-top button{
+  background:#2e7d32;
+  color:white;
+  border:none;
+  padding:10px 22px;
+  border-radius:25px;
+  cursor:pointer;
+}
+
+/* CONTENT LAYOUT */
+.content{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  padding:0 40px;
+  flex-wrap:wrap;
+}
+
+/* LEFT CARD */
+.left-card{
+  width:600px;
+  background:#fff;
+  border-radius:20px;
+  padding:25px;
+  text-align:left;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.images{
+  display:flex;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.images img{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+
+/* TEXT */
+.left-card h2{
+  color:#1b5e20;
+}
+
+.sub{
+  font-size:14px;
+  color:#666;
+}
+
+/* LANGUAGE BUTTONS */
+.lang{
+  margin:10px 0;
+}
+
+.lang button{
+  margin-right:10px;
+  padding:6px 14px;
+  border:none;
+  border-radius:20px;
+  background:#e8f5e9;
+  cursor:pointer;
+}
+
+/* DESCRIPTION */
+.desc{
+  margin-top:10px;
+  font-size:14px;
+  line-height:1.6;
+}
+
+/* RIGHT CARD */
+.right-card{
+  width:350px;
+  background:#f1f8e9;
+  border-radius:20px;
+  padding:25px;
+  text-align:left;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.right-card h3{
+  color:#2e7d32;
+  margin-bottom:10px;
+}
+
+/* FOOTER */
+.footer{
+  margin-top:40px;
+  font-size:14px;
+  color:#2e7d32;
+}

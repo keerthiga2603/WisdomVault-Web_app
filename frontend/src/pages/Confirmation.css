@@ -1,0 +1,111 @@
+.confirm-page{
+  padding-top:140px;
+  background:#eef6f0;
+  min-height:100vh;
+  text-align:center;
+}
+
+/* HEADER */
+.confirm-page h1{
+  color:#1b5e20;
+  font-size:34px;
+  font-weight:700;
+}
+
+.confirm-page p{
+  color:#6b7c6f;
+  margin-bottom:25px;
+}
+
+/* SUCCESS BOX */
+.success-box{
+  width:1000px;
+  max-width:95%;
+  margin:20px auto;
+
+  background:#f7faf7;
+  border-radius:16px;
+  padding:30px;
+
+  border:1px solid #dce8dc;
+}
+
+/* TICK */
+.tick{
+  width:70px;
+  height:70px;
+  margin:0 auto 15px;
+
+  background:#2ecc71;
+  color:white;
+  font-size:40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:10px;
+}
+
+/* GRID */
+.bottom-grid{
+  width:1000px;
+  max-width:95%;
+  margin:20px auto;
+
+  display:flex;
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  flex:1;
+  background:#f7faf7;
+  border-radius:14px;
+  padding:20px;
+  text-align:left;
+
+  border:1px solid #dce8dc;
+}
+
+/* LIST */
+.card ul{
+  margin-top:10px;
+  padding-left:18px;
+}
+
+/* SMALL TEXT */
+.small{
+  font-size:13px;
+  color:#6b7c6f;
+  margin-top:10px;
+}
+
+/* BUTTONS */
+.buttons{
+  margin-top:25px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+button{
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+/* BUTTON STYLES */
+.track{
+  background:#2e7d32;
+  color:white;
+}
+
+.share{
+  background:#a5d6a7;
+}
+
+.home{
+  background:#e0e0e0;
+}

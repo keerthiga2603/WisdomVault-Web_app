@@ -1,0 +1,80 @@
+.voice-page{
+  padding-top:120px;
+  min-height:100vh;
+
+  background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
+  text-align:center;
+}
+
+/* TITLE */
+.voice-page h2{
+  text-align:left;
+  margin-left:50px;
+  color:#1b5e20;
+}
+
+/* MAIN BOX */
+.voice-box{
+  width:900px;
+  max-width:95%;
+  margin:60px auto;
+
+  background:#ffffff;
+  border-radius:20px;
+  padding:40px;
+
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* HEADING */
+.voice-box h1{
+  color:#1b5e20;
+  font-size:30px;
+}
+
+.voice-box p{
+  color:#444;
+  margin-top:10px;
+}
+
+/* PLAY BUTTON */
+.play-btn{
+  width:100px;
+  height:100px;
+  margin:30px auto;
+
+  background:#43a047;
+  color:white;
+  font-size:40px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:50%;
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.play-btn:hover{
+  background:#2e7d32;
+  transform:scale(1.05);
+}
+
+/* AUDIO INFO */
+.audio-info{
+  font-size:14px;
+  margin-top:10px;
+  color:#555;
+}
+
+/* PROGRESS BAR */
+.progress-bar{
+  width:80%;
+  height:50px;
+  margin:30px auto;
+
+  background:#dfeae2;
+  border-radius:20px;
+}

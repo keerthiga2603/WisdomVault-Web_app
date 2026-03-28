@@ -1,0 +1,84 @@
+.start-page{
+  height:100vh;
+  background:#2f3b4a;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+/* GOOGLE TITLE */
+.start-page h1{
+  font-size:60px;
+  color:#8ab4f8;
+  margin-bottom:30px;
+}
+
+/* SEARCH BAR */
+.search-bar{
+  width:700px;
+  max-width:90%;
+
+  background:#eaeaea;
+  border-radius:30px;
+  padding:12px 20px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.search-bar input{
+  border:none;
+  outline:none;
+  width:80%;
+  font-size:16px;
+  background:transparent;
+}
+
+.search-bar span{
+  color:#666;
+}
+
+/* RESULT CARD */
+.result-card{
+  width:700px;
+  max-width:90%;
+  margin-top:30px;
+
+  background:#1f1f1f;
+  color:white;
+
+  padding:20px;
+  border-radius:20px;
+}
+
+/* TAG */
+.tag{
+  background:#444;
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:10px;
+  font-size:12px;
+  margin-bottom:10px;
+}
+
+/* BUTTON */
+.result-card button{
+  margin-top:15px;
+  padding:12px 20px;
+
+  background:#4caf50;
+  border:none;
+  border-radius:20px;
+  color:white;
+
+  cursor:pointer;
+}
+
+/* SMALL TEXT */
+.result-card small{
+  display:block;
+  margin-top:10px;
+  color:#aaa;
+}
